@@ -42,10 +42,10 @@ const SignUp = () => {
                 <h1 className="auth-title">Регистрация</h1>
                 {error.length > 0 && <div className="auth-error">{error}</div>}
                 <form onSubmit={handleSubmit} className="auth-form">
-                    <Input required name="username" />
-                    <Input required name="email" type="email" />
-                    <Input required name="password" type="password" />
-                    <Input required name="password2" type="password" />
+                    <Input required placeholder="Имя пользователя" name="username" />
+                    <Input required placeholder="Email" name="email" type="email" />
+                    <Input required placeholder="Пароль" name="password" type="password" />
+                    <Input required placeholder="Повторите пароль" name="password2" type="password" />
                     <Button>Зарегистрироваться</Button>
                 </form>
                 <footer className="auth-footer">
