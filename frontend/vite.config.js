@@ -15,4 +15,5 @@ export default defineConfig({
             includeManifestIcons: false,
         }),
     ],
+    base: '/mobdev-lab14-kharlanov'
 })
